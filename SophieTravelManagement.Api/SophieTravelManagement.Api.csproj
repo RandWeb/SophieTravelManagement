@@ -13,7 +13,9 @@
 
     <ItemGroup>
       <ProjectReference Include="..\SophieTravelManagement.Application\SophieTravelManagement.Application.csproj" />
+      <ProjectReference Include="..\SophieTravelManagement.Infrastructuer\SophieTravelManagement.Infrastructuer.csproj" />
       <ProjectReference Include="..\SophieTravelManagement.Shared.Abstractions\SophieTravelManagement.Shared.Abstractions.csproj" />
+      <ProjectReference Include="..\SophieTravelManagement.Shared\SophieTravelManagement.Shared.csproj" />
     </ItemGroup>
 
 </Project>

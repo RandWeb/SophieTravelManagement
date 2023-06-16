@@ -1,7 +1,16 @@
+using SophieTravelManagement.Application;
+using SophieTravelManagement.Infrastrcutuer;
+using SophieTravelManagement.Shared;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
 
+ConfigurationManager configuration = builder.Configuration;
+
+builder.Services.AddShared();
+builder.Services.AddApplication();
+builder.Services.AddInfrastructure(configuration);
+//
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
@@ -17,6 +26,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+app.UseShared();
+
 
 app.UseAuthorization();
 
