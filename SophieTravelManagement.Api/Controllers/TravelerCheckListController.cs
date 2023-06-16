@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Http.HttpResults;
+using Microsoft.AspNetCore.Mvc;
 using SophieTravelManagement.Application.Commands;
 using SophieTravelManagement.Application.Dto;
 using SophieTravelManagement.Application.Queries;

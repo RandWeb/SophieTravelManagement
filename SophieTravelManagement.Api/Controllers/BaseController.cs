@@ -1,12 +1,13 @@
 ﻿
-using Microsoft.AspNetCore.Http.HttpResults;
-using Microsoft.AspNetCore.Mvc;
+
 
 namespace SophieTravelManagement.Api.Controllers;
+using Microsoft.AspNetCore.Mvc;
 
 [ApiController]
 [Route("api/[controller]")]
-public class BaseController
+public abstract class BaseController : ControllerBase
 {
+
     protected ActionResult<TResult> OkOrNotFound<TResult>(TResult result) => result is null ? NotFound() : Ok(result);
 }
