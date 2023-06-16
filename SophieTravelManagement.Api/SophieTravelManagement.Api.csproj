@@ -12,6 +12,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\SophieTravelManagement.Application\SophieTravelManagement.Application.csproj" />
       <ProjectReference Include="..\SophieTravelManagement.Shared.Abstractions\SophieTravelManagement.Shared.Abstractions.csproj" />
     </ItemGroup>
 
