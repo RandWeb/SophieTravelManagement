@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SophieTravelManagement.Domain", "SophieTravelManagement.Domain\SophieTravelManagement.Domain.csproj", "{A802FDEF-8427-4691-9034-1B3B2E7395C8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{0EC945CB-931D-4446-BF21-5DA2645C8B9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SophieTravelManagement.Shared.Abstractions", "SophieTravelManagement.Shared.Abstractions\SophieTravelManagement.Shared.Abstractions.csproj", "{96DFC542-1A92-4270-9432-33BFF24E41EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SophieTravelManagement.Application", "SophieTravelManagement.Application\SophieTravelManagement.Application.csproj", "{F756DE9D-9E7D-4B84-880D-EB749418FBE9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A802FDEF-8427-4691-9034-1B3B2E7395C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A802FDEF-8427-4691-9034-1B3B2E7395C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A802FDEF-8427-4691-9034-1B3B2E7395C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A802FDEF-8427-4691-9034-1B3B2E7395C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96DFC542-1A92-4270-9432-33BFF24E41EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96DFC542-1A92-4270-9432-33BFF24E41EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96DFC542-1A92-4270-9432-33BFF24E41EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96DFC542-1A92-4270-9432-33BFF24E41EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F756DE9D-9E7D-4B84-880D-EB749418FBE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F756DE9D-9E7D-4B84-880D-EB749418FBE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F756DE9D-9E7D-4B84-880D-EB749418FBE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F756DE9D-9E7D-4B84-880D-EB749418FBE9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{96DFC542-1A92-4270-9432-33BFF24E41EC} = {0EC945CB-931D-4446-BF21-5DA2645C8B9B}
+	EndGlobalSection
+EndGlobal

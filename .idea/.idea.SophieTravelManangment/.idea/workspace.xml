@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="41f5a0bb-f725-49b7-b8f6-23fa8c71e357" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.SophieTravelManagement/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.SophieTravelManagement/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.SophieTravelManagement/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.SophieTravelManagement/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.SophieTravelManagement/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.SophieTravelManangment/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SophieTravelManagement.Application/Class1.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SophieTravelManagement.Application/Commands/AddTravelerItemCommand.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SophieTravelManagement.Application/Commands/CreateTravelerCheckListWithItems.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SophieTravelManagement.Application/Commands/RemoveTravelerCheckList.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SophieTravelManagement.Application/Commands/RemoveTravelerItem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SophieTravelManagement.Application/Commands/TakeItem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SophieTravelManagement.Application/Dto/External/WeatherDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SophieTravelManagement.Application/Services/IWeatherService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SophieTravelManagement.Application/SophieTravelManagement.Application.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SophieTravelManagement.Domain/Constants/Gender.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SophieTravelManagement.Domain/Entities/TravelerCheckList.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SophieTravelManagement.Domain/Events/TravelerItemAdded.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SophieTravelManagement.Domain/Events/TravelerItemRemoved.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SophieTravelManagement.Domain/Events/TravelerItemTaken.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SophieTravelManagement.Domain/Exceptions/InvalidTemperatureException.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SophieTravelManagement.Domain/Exceptions/InvalidTravelDaysException.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SophieTravelManagement.Domain/Exceptions/TravelerCheckListIdException.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SophieTravelManagement.Domain/Exceptions/TravelerCheckListNameException.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SophieTravelManagement.Domain/Exceptions/TravelerItemAlreadyExistsException.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SophieTravelManagement.Domain/Exceptions/TravelerItemNameException.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SophieTravelManagement.Domain/Exceptions/TravelerItemNotFoundException.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SophieTravelManagement.Domain/Factories/ITravelerCheckListFactory.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SophieTravelManagement.Domain/Factories/TravelerCheckListFactory.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SophieTravelManagement.Domain/Policies/Gender/FemaleGenderPolicy.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SophieTravelManagement.Domain/Policies/Gender/MaleGenderPolicy.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SophieTravelManagement.Domain/Policies/ITravelerItemsPolicy.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SophieTravelManagement.Domain/Policies/PolicyData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SophieTravelManagement.Domain/Policies/Temperature/HighTemperaturePolicy.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SophieTravelManagement.Domain/Policies/Temperature/LowTemperaturePolicy.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SophieTravelManagement.Domain/Policies/Universal/BasicPolicy.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SophieTravelManagement.Domain/Repositories/ITravelerCheckListRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SophieTravelManagement.Domain/SophieTravelManagement.Domain.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SophieTravelManagement.Domain/ValueObjects/Destination.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SophieTravelManagement.Domain/ValueObjects/Temperature.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SophieTravelManagement.Domain/ValueObjects/TravelDays.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SophieTravelManagement.Domain/ValueObjects/TravelerCheckListId.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SophieTravelManagement.Domain/ValueObjects/TravelerCheckListName.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SophieTravelManagement.Domain/ValueObjects/TravelerItem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SophieTravelManagement.Shared.Abstractions/Commands/ICommand.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SophieTravelManagement.Shared.Abstractions/Domain/AggregateRoot.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SophieTravelManagement.Shared.Abstractions/Domain/IDomainEvent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SophieTravelManagement.Shared.Abstractions/Exceptions/TravelerCheckListException.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SophieTravelManagement.Shared.Abstractions/SophieTravelManagement.Shared.Abstractions.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SophieTravelManagement.sln" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/SophieTravelManagement.Application/Class1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SophieTravelManagement.Domain/Constants/Gender.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SophieTravelManagement.Domain/Entities/TravelerCheckList.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SophieTravelManagement.Domain/Events/TravelerItemAdded.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SophieTravelManagement.Domain/Factories/TravelerCheckListFactory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SophieTravelManagement.Domain/Policies/Temperature/HighTemperaturePolicy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SophieTravelManagement.Domain/Policies/Temperature/LowTemperaturePolicy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SophieTravelManagement.Domain/ValueObjects/TravelerCheckListName.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
+  <component name="ProjectId" id="2REmG1Fu42GVlAtQyN7YV5ioWUM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "C:\\Users\\Montaghem\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\DecompilerCache",
+      "C:\\Users\\Montaghem\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\SourcesCache",
+      "C:\\Users\\Montaghem\\AppData\\Local\\Symbols\\src"
+    ]
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="41f5a0bb-f725-49b7-b8f6-23fa8c71e357" name="Changes" comment="" />
+      <created>1686823519998</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1686823519998</updated>
+      <workItem from="1686823521494" duration="12840000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>
