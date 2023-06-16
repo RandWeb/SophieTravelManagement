@@ -2,4 +2,4 @@
 
 namespace SophieTravelManagement.Application.Commands;
 
-public record RemoveTravelerItem(Guid TravelerCheckListId,string Name):ICommand;
+public record RemoveTravelerCheckListCommand(Guid Id):ICommand;

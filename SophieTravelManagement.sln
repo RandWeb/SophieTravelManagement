@@ -8,6 +8,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SophieTravelManagement.Shar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SophieTravelManagement.Application", "SophieTravelManagement.Application\SophieTravelManagement.Application.csproj", "{F756DE9D-9E7D-4B84-880D-EB749418FBE9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SophieTravelManagement.Infrastructuer", "SophieTravelManagement.Infrastructuer\SophieTravelManagement.Infrastructuer.csproj", "{DFD278AE-AB7A-4671-B3A6-2B0CB7D2B765}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SophieTravelManagement.Api", "SophieTravelManagement.Api\SophieTravelManagement.Api.csproj", "{885D7235-D7F9-41C9-90B0-94B985784312}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SophieTravelManagement.Shared", "SophieTravelManagement.Shared\SophieTravelManagement.Shared.csproj", "{5F30FDA5-11C0-40D5-B70A-C5B8BBA77B22}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,8 +32,21 @@ Global
 		{F756DE9D-9E7D-4B84-880D-EB749418FBE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F756DE9D-9E7D-4B84-880D-EB749418FBE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F756DE9D-9E7D-4B84-880D-EB749418FBE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFD278AE-AB7A-4671-B3A6-2B0CB7D2B765}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFD278AE-AB7A-4671-B3A6-2B0CB7D2B765}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFD278AE-AB7A-4671-B3A6-2B0CB7D2B765}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFD278AE-AB7A-4671-B3A6-2B0CB7D2B765}.Release|Any CPU.Build.0 = Release|Any CPU
+		{885D7235-D7F9-41C9-90B0-94B985784312}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{885D7235-D7F9-41C9-90B0-94B985784312}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{885D7235-D7F9-41C9-90B0-94B985784312}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{885D7235-D7F9-41C9-90B0-94B985784312}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F30FDA5-11C0-40D5-B70A-C5B8BBA77B22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F30FDA5-11C0-40D5-B70A-C5B8BBA77B22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F30FDA5-11C0-40D5-B70A-C5B8BBA77B22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F30FDA5-11C0-40D5-B70A-C5B8BBA77B22}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{96DFC542-1A92-4270-9432-33BFF24E41EC} = {0EC945CB-931D-4446-BF21-5DA2645C8B9B}
+		{5F30FDA5-11C0-40D5-B70A-C5B8BBA77B22} = {0EC945CB-931D-4446-BF21-5DA2645C8B9B}
 	EndGlobalSection
 EndGlobal

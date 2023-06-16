@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <AssemblyName>SophieTravelManagement.Infrastructuer</AssemblyName>
+        <RootNamespace>SophieTravelManagement.Infrastructure</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\SophieTravelManagement.Application\SophieTravelManagement.Application.csproj" />
+      <ProjectReference Include="..\SophieTravelManagement.Shared.Abstractions\SophieTravelManagement.Shared.Abstractions.csproj" />
+      <ProjectReference Include="..\SophieTravelManagement.Shared\SophieTravelManagement.Shared.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.7" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.7">
+        <PrivateAssets>all</PrivateAssets>
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      </PackageReference>
+      <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.7" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.7">
+        <PrivateAssets>all</PrivateAssets>
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      </PackageReference>
+      <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="7.0.1" />
+    </ItemGroup>
+
+</Project>

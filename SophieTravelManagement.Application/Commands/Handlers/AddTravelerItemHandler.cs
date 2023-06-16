@@ -23,7 +23,7 @@ public sealed class AddTravelerItemHandler : ICommandHandler<AddTravelerItemComm
         if (travelerCheckingList is null)
             throw new TravelerCheckListNotFoundException(command.TravelerCheckListId);
 
-        var travelerItem = new TravelerItem(command.Name, command.Quantity);
+        TravelerItem travelerItem = new(command.Name, command.Quantity);
         
         travelerCheckingList.AddItem(travelerItem);
 

@@ -2,7 +2,7 @@
 
 namespace SophieTravelManagement.Application.Exceptions;
 
-public class TravelerCheckListNotFoundException : TravelerCheckListException
+internal class TravelerCheckListNotFoundException : TravelerCheckListException
 {
     public Guid Id { get; }
 
